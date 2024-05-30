@@ -8,7 +8,7 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
         <style>
             .formulario-degradado {
-                background: linear-gradient(to right, #F4F7F7, #EBF0F5);
+                background: #DFE5EB8F;
                 padding: 20px;
                 border-radius: 10px;
                 max-width: 90%; /* Ajustar el ancho máximo del formulario */
