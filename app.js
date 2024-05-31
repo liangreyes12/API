@@ -14,11 +14,11 @@ app.get('/', (req, res) => {
 
 const startServer = async () => {
     try {
-        await mongoose.connect('mongodb+srv://jhonwoodz675:Mg6d1VR0ob0d3w5a@api.ix6qiai.mongodb.net/?retryWrites=true&w=majority&appName=API');
-        console.log('Si hay conexion a la base de datos');
+        await mongoose.connect('mongodb+srv://jhonwoodz675:LucySnow4321@cluster0.hv6zwvw.mongodb.net/myDB?retryWrites=true&w=majority');
+        console.log('Si hay conexión a la base de datos');
 
-        app.listen(10000, () => {
-            console.log('Servidor escuchando en el puerto 10000');
+        app.listen(3001, () => {
+            console.log('Servidor escuchando en el puerto 3001');
         });
     } catch (error) {
         console.error('Error al conectar a la base de datos', error);
